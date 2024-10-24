@@ -15,6 +15,9 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    background-image: url('../../image5.jpg');
+    background-size: cover;
+    background-position: left;
 }
 
 .container{
@@ -47,7 +50,7 @@ body{
 }
 
 .container button{
-    background-color: #512da8;
+    background-color: #ff8400;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -163,7 +166,10 @@ body{
 .toggle{
     background-color: #512da8;
     height: 100%;
-    background: linear-gradient(to right, #5c6bc0, #512da8);
+    background: linear-gradient(to right, #00ff08, #00d656);
+    background-image: url('../../image4.jpg');
+    background-size: cover;
+    background-position: center;
     color: #fff;
     position: relative;
     left: -100%;
